@@ -1,17 +1,18 @@
 const botoes = document.querySelectorAll(".botao");
-console.log(botoes)
-for (let i=0; i < botoes.length; i++) {
-     console.log(i); }
-     for(let i=0;i <botoes.length;i++){
-     }
-        botoes[i].onclick = function() {
-        botoes[i].classList.add("ativo");
-        }
-        
-        const botoes = document.querySelectorAll(".botao");
 for(let i=0;i <botoes.length;i++){ botoes[i].onclick = function() {
 
-for(let j=0;j<botoes.length;j++) { botoes[j].classList.remove("ativo");
+for(let j=0;j<botoes.length;j++) 
+{ botoes[j].classList.remove("ativo");
 }
 botoes[i].classList.add("ativo");
+textos[i].classList.add("ativo");
+textos[j].classList.remove(ativo);
 }
+}
+const contadores = document.querySelectorAll(".contador");
+contadores[0].textContent = "Contagem regressiva";
+const contadores = document.querySelectorAll(".contador”);
+const tempoObjetivo1 = new Date("2023-10-05T00:00:00”);
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
+
+
